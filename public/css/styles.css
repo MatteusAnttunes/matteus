@@ -1,0 +1,192 @@
+*{
+    font-family: 'Roboto+Slab';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+conteiner-fluid{
+    padding: 0;
+}
+
+.bnt-primary{
+    background-color: #dcc111
+    border 2px solid #d9bd4c 
+}
+
+.bnt-primary:hover{
+    background-color:#d9bd4c;
+    border-color: #d9bd4c ;
+}
+
+.msg{
+    background-color: #86d081;
+    color: #0e4a0e;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom:0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*navbar*/
+#navbar img{
+    color: rgb(237, 232, 232);
+    width: 5px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: rgb(156, 146, 146);
+    padding: 5px;
+}
+
+#navbar a{
+    font-size: 15px;
+    color: #ccc 
+}
+
+#navbar a:hover{
+    font-size: 15px;
+    color: #5e99e1 
+}
+
+/*pesquisa*/
+#search-container{
+    background-image: url("../img/Black\ &\ White.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+}
+
+#serch-container h1{
+    color: #757575;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#serch-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*lista de jogos*/
+
+#jogos-container{
+    padding: 50px;
+}
+
+#jogos-container h2{
+    margin-bottom: 10px;
+}
+
+#jogos-container.subtitle{
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.cards-container{
+    display: flex;
+}
+
+#jogos-container .card{
+    flex: 1 1 29%;
+    max-width: 30%;
+    border-radius: 10px;
+    margin: .5%;
+}
+
+#jogos-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card .card-date{
+    font-size: 15px;
+    color: #ccc;
+}
+
+.card .card-title{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*create*/
+#jogo-create-conteiner{
+    padding: 30px;
+}
+
+#jogo-create-conteiner label{
+    font-weight: bold;
+}
+
+#jogo-create-conteiner input,
+#jogo-create-conteiner select,
+#jogo-create-conteiner textarea{
+    font-size: 12px;
+}
+
+/*info jogos*/
+#image-container,
+#info-container{
+    margin-top:auto;
+}
+
+#image-container img{
+    border-radius: 10px;
+
+}
+
+#info-container h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#inf0-container p{
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+}
+
+#info-container h3,
+#descripition-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+
+}
